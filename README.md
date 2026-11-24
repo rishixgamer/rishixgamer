@@ -1,10 +1,10 @@
 # Rishi Haldar
 
-CS student at UMass Amherst, graduating in 2030. I’m looking for Summer 2027 internships in quant research and trading, software engineering, or ML systems.
+I study computer science at UMass Amherst and expect to graduate in May 2030. I'm looking for a Summer 2027 internship in quant research or trading, software engineering, or ML systems.
 
-| Project | What to look at |
-| --- | --- |
-| [pit-alpha](https://github.com/rishixgamer/pit-alpha) | Factor research in Python with point-in-time joins, purged walk-forward validation, and a held-out evaluation. |
-| [lob-sim](https://github.com/rishixgamer/lob-sim) | C++20 price-time order matching with deterministic replay and a Python simulation environment. |
-| [mlx-spec-bench](https://github.com/rishixgamer/mlx-spec-bench) | An Apple Silicon benchmark that compares speculative decoding with target-only generation and checks exact output tokens. |
-| [vol-surf](https://github.com/rishixgamer/vol-surf) | Black-76 pricing, implied-volatility inversion, and interpolation with checks for strike and calendar arbitrage on a grid. |
+| Project | What it does | Start here |
+| --- | --- | --- |
+| [lob-sim](https://github.com/rishixgamer/lob-sim) | C++20 matching engine with price-time priority and order book replay. | [Latency and profiling results](https://github.com/rishixgamer/lob-sim/blob/main/docs/benchmarks/m5-tail-latency.md) |
+| [pit-alpha](https://github.com/rishixgamer/pit-alpha) | Python tools for testing factors with data available at each decision. | [Historical momentum study](https://github.com/rishixgamer/pit-alpha/blob/main/examples/research/RESULTS.md) |
+| [mlx-spec-bench](https://github.com/rishixgamer/mlx-spec-bench) | Apple Silicon benchmark for speculative decoding and exact token agreement. | [Qwen2.5 results](https://github.com/rishixgamer/mlx-spec-bench/blob/main/docs/m5-speculative-decoding.md) |
+| [vol-surf](https://github.com/rishixgamer/vol-surf) | Black-76 pricing and implied-volatility surfaces with strike and calendar checks. | [Surface example](https://github.com/rishixgamer/vol-surf#build-and-query-a-surface) |
